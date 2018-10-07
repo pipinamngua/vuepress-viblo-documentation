@@ -1,8 +1,4 @@
-# VuePress Starter Kit
-
-A sample project to let you see what makes VuePress so great!
-
-*  [Presentation Slides](https://www.slides.com/bencodezen/vuepress-docs-made-easy)
+# VuePress Viblo Documentation
 
 ## Getting Setup
 

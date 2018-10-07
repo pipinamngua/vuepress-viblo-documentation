@@ -1,15 +1,15 @@
 {
-  "name": "vuepress-starter-kit",
+  "name": "vuepress-viblo-documentation",
   "version": "1.0.0",
   "description": "A sample project to let you see what makes VuePress so great! ",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-		"build": "vuepress build docs"
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bencodezen/vuepress-starter-kit.git"
+    "url": "git+https://github.com/pipinamngua/vuepress-viblo-documentation.git"
   },
   "keywords": [
     "vuejs",
@@ -17,12 +17,9 @@
     "documentation",
     "static-site-gen"
   ],
-  "author": "Ben Hong <bencodezen@gmail.com>",
+  "author": "Nguyen Hoang <quynh4589@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bencodezen/vuepress-starter-kit/issues"
-  },
-  "homepage": "https://github.com/bencodezen/vuepress-starter-kit#readme",
+  "homepage": "https://github.com/pipinamngua/vuepress-viblo-documentation#readme",
   "dependencies": {
     "vuepress": "^0.10.0"
   }

@@ -1,11 +1,12 @@
 module.exports = {
 	dest: './docs/dist',
-	title: 'VuePress Starter Kit',
+	title: 'Viblo Documentation',
 	head: [
-		['link', { rel: 'icon', href: `/favicon.png` }]
+		['link', { rel: 'icon', href: `/viblo_logo.png` }]
 	],
 	ga: '',
-	description: 'This is your page description.',
+	description: 'VietNam IT Blog',
+	permalink: '/:year/:month/:day/:slug',
 	themeConfig: {
 		repo: '',
 		editLinks: false,
@@ -17,21 +18,12 @@ module.exports = {
 				link: '/'
 			},
 			{
-				text: 'Basic Page',
+				text: 'Introduction',
 				link: '/basic/'
 			},
 			{
-				text: 'Section',
-				items: [
-					{
-						text: 'Section Introduction',
-						link: '/section/#section-introduction'
-					},
-					{
-						text: 'Some More Content!',
-						link: '/section/#some-more-content'
-					}
-				]
+				text: 'Write Blog',
+				link: '/write/'
 			},
 			{
 				text: 'Contact',
@@ -47,6 +39,7 @@ module.exports = {
 				]
 			}
 		],
-		docsDir: 'docs'
+		docsDir: 'docs',
+		sidebar: 'auto'
 	}
 }
